@@ -9,7 +9,7 @@
     <constant name="list_width">1200</constant>
     <constant name="info_left">700</constant>
     <constant name="view_left">680</constant>
-    <constant name="widget_poster_width">260</constant>
-    <constant name="widget_poster_height">380</constant>
+    <constant name="widget_poster_width">640</constant> <!--Skin's original value is 260, changed to fit landscape video thrumbnails-->
+    <constant name="widget_poster_height">340</constant> <!--Skin's original value is 380, changed to fit landscape video thrumbnails-->
     <constant name="sidepad">80</constant>    
 </includes>

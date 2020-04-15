@@ -1,5 +1,11 @@
+Added Noto Sans Fonts from Google Fonts to fully support Traditional Chinese https://www.google.com/get/noto/
+
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
 or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
 
 Icon images from iconmonstr.com see website for license terms
+1.0.5-mod
+[add]   Added Noto Sans Fonts from Google Fonts to fully support Traditional Chinese https://www.google.com/get/noto/ https://kodi.wiki/view/HOW-TO:Add_a_new_true_type_font_to_the_skin
+        Add font set to skin_root_folder/fonts and edited skin_root_folder/1080i/fonts
+[mod]   Changed Constants_Main.xml "widget_poster_height" & "widget_poster_height" to match landscape video thumbnails
