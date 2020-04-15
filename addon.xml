@@ -1,4 +1,4 @@
-<addon id="skin.aura" name="Aura" provider-name="jurialmunkey" version="1.0.5">
+<addon id="skin.aura-tvhk" name="Aura-tvhk" provider-name="jurialmunkey / tvhk" version="1.0.5-mod">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -17,7 +17,7 @@
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum>https://forum.kodi.tv/showthread.php?tid=328558</forum>
-        <source>https://github.com/jurialmunkey/skin.aura</source>
+        <source>https://github.com/jurialmunkey/skin.aura / https://github.com/tvhk-dev/skin.aura-tvhk</source>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
