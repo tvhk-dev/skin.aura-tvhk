@@ -421,11 +421,12 @@
     <!-- Busy Spinner -->
     <include name="Defs_BusySpinner">
         <param name="label" default="$LOCALIZE[20186]..." />
+        <param name="_centerleft" default="50%" />
         <definition>
             <control type="group">
                 <height>170</height>
                 <width>720</width>
-                <centerleft>50%</centerleft>
+                <centerleft>$PARAM[_centerleft]</centerleft>
                 <centertop>50%</centertop>
                 <control type="image">
                     <description>Busy animation</description>

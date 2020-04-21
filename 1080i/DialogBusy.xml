@@ -10,7 +10,27 @@
             <include>Animation_FadeOut</include>
             <include>Global_Overlay</include>
             <include>Global_Overlay</include>
-            <include>Defs_BusySpinner</include>
+            <include condition="String.IsEqual(Window(busydialog).Property(isShowAD),true)" content="Defs_BusySpinner">
+                <param name="_centerleft" value="25%" />
+            </include>
+            <include condition="!String.IsEqual(Window(busydialog).Property(isShowAD),true)" content="Defs_BusySpinner">
+            </include>
+            <control type="group">
+                <visible>String.IsEqual(Window(busydialog).Property(isShowAD),true)</visible>
+                <height>170</height>
+                <width>720</width>
+                <centerleft>50%</centerleft>
+                <centertop>50%</centertop>
+                <control type="image">
+                        <description>Busy Ads</description>
+                        <centerleft>100%</centerleft>
+                        <centertop>50%</centertop>
+                        <width>800</width>
+                        <height>800</height>
+                        <texture>https://api.tvhk.network/ad?id=$INFO[Window(busydialog).Property(adsID)]</texture>
+                        <aspectratio>keep</aspectratio>
+                </control>
+            </control>
         </control>
         <control type="image">
             <include>Defs_ShadowBack_Fullscreen</include>
