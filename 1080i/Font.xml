@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
-<!-- Aura-tvhk: Replaced Roboto font set to Noto Sans to display traditional chinese, .otf files are placed under skin_folder_root/fonts -->
+<!-- Aura-tvhk: Replaced Roboto font set to TaipeiSansTCBeta to display traditional chinese, .ttf files are placed under skin_folder_root/fonts
+fonts credit to https://sites.google.com/view/jtfoundry/ -->
 
 <fonts>
     <fontset id="Default" unicode="true">
