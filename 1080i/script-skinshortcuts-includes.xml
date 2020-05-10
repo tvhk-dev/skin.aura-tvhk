@@ -12,13 +12,13 @@
 			<property name="widget">Addon</property>
 			<property name="widget">Addon</property>
 			<property name="widgetName">HOT</property>
-			<property name="widgetPath">plugin://plugin.video.tvhkAPI/cat/0?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath">plugin://plugin.video.tvhk/cat/0?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widgetTarget">videos</property>
 			<property name="widgetName.Widget1">entertainment</property>
-			<property name="widgetPath.Widget1">plugin://plugin.video.tvhkAPI/cat/1?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath.Widget1">plugin://plugin.video.tvhk/cat/1?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widgetTarget.Widget1">videos</property>
 			<property name="widgetName.Widget2">politics</property>
-			<property name="widgetPath.Widget2">plugin://plugin.video.tvhkAPI/cat/2?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath.Widget2">plugin://plugin.video.tvhk/cat/2?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widgetTarget.Widget2">videos</property>
 			<property name="widgetType">videos</property>
 			<property name="widget.Widget1">Addon</property>
@@ -29,12 +29,12 @@
 			<property name="widgetName.Widget3">Yellow Eco</property>
 			<property name="widgetType.Widget3">videos</property>
 			<property name="widgetTarget.Widget3">videos</property>
-			<property name="widgetPath.Widget3">plugin://plugin.video.tvhkAPI/cat/3?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath.Widget3">plugin://plugin.video.tvhk/cat/3?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widget.Widget4">Addon</property>
 			<property name="widgetName.Widget4">distruct councillor</property>
 			<property name="widgetType.Widget4">videos</property>
 			<property name="widgetTarget.Widget4">videos</property>
-			<property name="widgetPath.Widget4">plugin://plugin.video.tvhkAPI/cat/4?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath.Widget4">plugin://plugin.video.tvhk/cat/4?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="translatedPath">UpdateLibrary(music,,true)</property>
 			<onclick>noop</onclick>
 			<property name="path">noop</property>
@@ -735,13 +735,13 @@
 			<property name="widget">Addon</property>
 			<property name="widget">Addon</property>
 			<property name="widgetName">HOT</property>
-			<property name="widgetPath">plugin://plugin.video.tvhkAPI/cat/0?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath">plugin://plugin.video.tvhk/cat/0?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widgetTarget">videos</property>
 			<property name="widgetName.Widget1">entertainment</property>
-			<property name="widgetPath.Widget1">plugin://plugin.video.tvhkAPI/cat/1?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath.Widget1">plugin://plugin.video.tvhk/cat/1?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widgetTarget.Widget1">videos</property>
 			<property name="widgetName.Widget2">politics</property>
-			<property name="widgetPath.Widget2">plugin://plugin.video.tvhkAPI/cat/2?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath.Widget2">plugin://plugin.video.tvhk/cat/2?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widgetTarget.Widget2">videos</property>
 			<property name="widgetType">videos</property>
 			<property name="widget.Widget1">Addon</property>
@@ -752,12 +752,12 @@
 			<property name="widgetName.Widget3">Yellow Eco</property>
 			<property name="widgetType.Widget3">videos</property>
 			<property name="widgetTarget.Widget3">videos</property>
-			<property name="widgetPath.Widget3">plugin://plugin.video.tvhkAPI/cat/3?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath.Widget3">plugin://plugin.video.tvhk/cat/3?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widget.Widget4">Addon</property>
 			<property name="widgetName.Widget4">distruct councillor</property>
 			<property name="widgetType.Widget4">videos</property>
 			<property name="widgetTarget.Widget4">videos</property>
-			<property name="widgetPath.Widget4">plugin://plugin.video.tvhkAPI/cat/4?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath.Widget4">plugin://plugin.video.tvhk/cat/4?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="translatedPath">UpdateLibrary(music,,true)</property>
 			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),tvhk)">noop</onclick>
 			<property name="path">noop</property>
@@ -2441,7 +2441,7 @@
 			<param name="sortby" value="" />
 			<param name="sortorder" value="" />
 			<param name="content" value="Container(300).ListItem.Property(widgetPath)" />
-			<param name="widgetContent" value="plugin://plugin.video.tvhkAPI/cat/0?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
+			<param name="widgetContent" value="plugin://plugin.video.tvhk/cat/0?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
 			<param name="widgetAspect" value="" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect)" />
 			<param name="label" value="HOT" />
@@ -2491,7 +2491,7 @@
 			<param name="sortby" value="" />
 			<param name="sortorder" value="" />
 			<param name="content" value="Container(300).ListItem.Property(widgetPath.Widget1)" />
-			<param name="widgetContent" value="plugin://plugin.video.tvhkAPI/cat/1?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
+			<param name="widgetContent" value="plugin://plugin.video.tvhk/cat/1?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
 			<param name="widgetAspect" value="" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget1)" />
 			<param name="label" value="entertainment" />
@@ -2526,7 +2526,7 @@
 			<param name="sortby" value="" />
 			<param name="sortorder" value="" />
 			<param name="content" value="Container(300).ListItem.Property(widgetPath.Widget2)" />
-			<param name="widgetContent" value="plugin://plugin.video.tvhkAPI/cat/2?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
+			<param name="widgetContent" value="plugin://plugin.video.tvhk/cat/2?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
 			<param name="widgetAspect" value="" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget2)" />
 			<param name="label" value="politics" />
@@ -2561,7 +2561,7 @@
 			<param name="sortby" value="" />
 			<param name="sortorder" value="" />
 			<param name="content" value="Container(300).ListItem.Property(widgetPath.Widget3)" />
-			<param name="widgetContent" value="plugin://plugin.video.tvhkAPI/cat/3?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
+			<param name="widgetContent" value="plugin://plugin.video.tvhk/cat/3?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
 			<param name="widgetAspect" value="" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget3)" />
 			<param name="label" value="Yellow Eco" />
@@ -2581,7 +2581,7 @@
 			<param name="sortby" value="" />
 			<param name="sortorder" value="" />
 			<param name="content" value="Container(300).ListItem.Property(widgetPath.Widget4)" />
-			<param name="widgetContent" value="plugin://plugin.video.tvhkAPI/cat/4?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
+			<param name="widgetContent" value="plugin://plugin.video.tvhk/cat/4?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
 			<param name="widgetAspect" value="" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget4)" />
 			<param name="label" value="distruct councillor" />
